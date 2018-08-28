@@ -67,6 +67,28 @@ p {
   font-weight: 500;
 }
 
+.gallery-block {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.gallery-block .heading {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.gallery-block .heading h2 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.gallery-block .compact-gallery .item {
+  overflow: hidden !important;
+  margin-bottom: 0 !important;
+  background: #000 !important;
+  opacity: 1 !important;
+}
 /* ID */
 #HeaderContainer {
   min-height: 100%;
