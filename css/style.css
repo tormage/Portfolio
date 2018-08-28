@@ -86,9 +86,18 @@ p {
 .gallery-block .compact-gallery .item {
   overflow: hidden !important;
   margin-bottom: 0 !important;
-  background: #000 !important;
   opacity: 1 !important;
 }
+
+.gallery-block .compact-gallery .item .images {
+  transition: 0.8s ease;
+}
+
+.gallery-block .compact-gallery .item .info {
+  position: relative;
+  display: inline-block;
+}
+
 /* ID */
 #HeaderContainer {
   min-height: 100%;
