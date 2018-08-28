@@ -67,6 +67,10 @@ p {
   font-weight: 500;
 }
 
+.card-deck {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 /* ID */
 #HeaderContainer {
   min-height: 100%;
